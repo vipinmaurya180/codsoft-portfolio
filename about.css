@@ -1,0 +1,39 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px; 
+}
+
+
+.detail {
+    flex: 1;
+}
+
+
+.detail h1 {
+    font-size: 35px;
+    margin: 0; 
+    padding-top: 0;
+    color: rgb(105, 35, 35);
+}
+
+.detail p {
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 0; 
+    font-weight: bold;
+    color: rgb(24, 24, 73);
+}

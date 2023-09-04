@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(240, 233, 224);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="tel"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+.combine{
+  display: flex;
+}
+
+.contact-box {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 50px auto;
+    /* display: flex; */
+    
+}
+
+.contact-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.phone {
+  margin: 10px 0;
+}
+.phone:before {
+  content: '\2022'; /* Bullet point */
+  margin-right: 10px;
+  color: #333;
+}
+.phone {
+  color: #0e2742;
+}
+
+.address-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin: 50px auto;
+}
+.address-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.address {
+margin: 10px 0;
+}
+.address:before {
+content: '\2022'; /* Bullet point */
+margin-right: 10px;
+color: #333;
+}
+.address {
+color: #0e2742;
+}
+
+.mail-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  margin: 50px auto;
+}
+.mail-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.email {
+margin: 10px 0;
+}
+.email:before {
+content: '\2022'; /* Bullet point */
+margin-right: 10px;
+color: #333;
+}
+.email {
+color: #0e2742;
+}
+
+
+
+
